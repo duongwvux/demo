@@ -16,7 +16,7 @@ class EthBody extends StatelessWidget {
           SizedBox(height: 10,),
           LineChart(),
           SizedBox(height: 10,),
-          TradeActionSheet()
+          // TradeActionSheet()
         ],
       ),
     );

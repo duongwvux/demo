@@ -1,5 +1,6 @@
 import 'package:core/widget/screen_header_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:prj2/widget/ETH/widgets/trade_action_sheet.dart';
 
 import 'eth_body.dart';
 
@@ -22,6 +23,7 @@ class _EthScreenState extends State<EthScreen> {
         ),
       ),
       body: EthBody(),
+      bottomNavigationBar: TradeActionSheet(),
     );
   }
 }

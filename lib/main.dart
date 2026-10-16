@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       localizationsDelegates: CoreLocalizations.localizationsDelegates,
       supportedLocales: CoreLocalizations.supportedLocales,
       theme: AppTheme.dark,
-      home: const StatisticScreen(),
+      home: const EthScreen(),
     );
   }
 }
