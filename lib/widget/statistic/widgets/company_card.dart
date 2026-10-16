@@ -1,5 +1,5 @@
 import 'package:core/color/font_color.dart';
-import 'package:core/widget/app_info_card.dart';
+import 'package:core/widget/statistic_info_card.dart';
 import 'package:core/widget/section_header_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +15,7 @@ class CompanyCard extends StatelessWidget {
         SingleChildScrollView(
           child: Column(
             children: [
-              AppInfoCard(
+              StatisticInfoCard(
                 leading: Container(
                   padding: EdgeInsets.all(6),
                   decoration: BoxDecoration(
@@ -25,11 +25,10 @@ class CompanyCard extends StatelessWidget {
                 ),
                 title: "WN company",
                 subtitle: "12:00 am - Aug 12, 2022",
-                present: null,
                 change: -993.98,
               ),
               SizedBox(height: 6,),
-              AppInfoCard(
+              StatisticInfoCard(
                 leading: Container(
                   padding: EdgeInsets.all(6),
                   decoration: BoxDecoration(
@@ -39,7 +38,6 @@ class CompanyCard extends StatelessWidget {
                 ),
                 title: "GO company",
                 subtitle: "02:00 pm - Aug 22, 2022",
-                present: null,
                 change: -1.904,
               ),
             ],

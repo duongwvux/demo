@@ -11,6 +11,7 @@ class CoinCardWidget extends StatelessWidget {
     required this.name,
     required this.present,
     required this.change,
+    required this.chart,
     this.onTap,
   });
 
@@ -18,6 +19,7 @@ class CoinCardWidget extends StatelessWidget {
   final String name;
   final double present;
   final double change;
+  final Widget chart;
   final VoidCallback? onTap;
 
   @override
@@ -64,6 +66,11 @@ class CoinCardWidget extends StatelessWidget {
                 ),
               ],
             ),
+            const SizedBox(height: 12,),
+            SizedBox(
+              height: 60,
+              child: chart,
+            )
           ],
         ),
       ),
