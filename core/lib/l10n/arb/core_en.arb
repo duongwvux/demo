@@ -1,0 +1,27 @@
+{
+  "@@locale": "en",
+  "home": "Home",
+  "@home": {
+    "description": "Generic label for the home destination."
+  },
+  "sample": "Sample",
+  "@sample": {
+    "description": "Generic label used for a sample item."
+  },
+  "loading": "Loading…",
+  "@loading": {
+    "description": "Progress indicator label."
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Action label for retrying a failed operation."
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Action label that abandons the current operation."
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Action label that confirms the current operation."
+  }
+}
