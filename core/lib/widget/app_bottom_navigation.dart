@@ -79,16 +79,7 @@ class AppBottomNavigation extends StatelessWidget {
                             color: selected ? activeColor : inactiveColor,
                           ),
                           const SizedBox(height: 4,),
-                          Text(
-                            item.label,
-                            style: TextStyle(
-                              fontSize: 11,
-                              fontWeight: selected
-                                ? FontWeight.w700
-                                : FontWeight.w500,
-                              color: selected ? activeColor : inactiveColor,
-                            ),
-                          ),
+
                         ],
                       ),
                     ),
